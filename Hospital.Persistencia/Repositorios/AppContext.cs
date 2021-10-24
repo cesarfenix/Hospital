@@ -12,6 +12,6 @@ namespace Hospital.Persistencia
               optionsBuilder.UseSqlServer("Inital Catalog=HospitalSenaData; Data Source=CESAR-PC; Integrated Security=true");
               //optionsBuilder.UseSqlServer("Data Source=(localdb)\\Nombre_Servidor; Initial Catalog=HospitalSenaData");
           }
-      }  //dotnet add package Microsoft.EntityFrameworkCore --version 5.0.0 
+      }  //dotnet add package Microsoft.EntityFrameworkCore --version 5.0.10 
     }
 }
