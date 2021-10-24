@@ -4,5 +4,7 @@ namespace Hospital.Dominio.Entidades
     {
         public int Id{get; set;}// el id lo reconoce como primary key
         public string Nombre{get; set;}
+        public string Apellidos{get; set;}
+
     }
 }
